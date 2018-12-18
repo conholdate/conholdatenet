@@ -486,7 +486,58 @@ ul.update-groupings li.grouping:hover {
 .api-gis-ico{
     background-position: -8px -839px ;
 }
+.api-xps-ico {
+    background-position: -8px -943px;
+}
+.api-eps-ico {
+    background-position: -8px -891px;
+}
+.api-zip-ico{
+    background-position: -8px -995px ;
+}
+.api-psd-ico{
+    background-position: -8px -1047px ;
+}
+.api-storage-ico {
+    background-position: -8px -1099px;
+}
+.api-video-ico {
+    background-position: -8px -1151px;
+}
 
+.gd-api-ico {
+    background: url(../img/icons-blue.png?v=7) 0 0 no-repeat;
+    width: 55px;
+    height: 45px;
+    border: 0 solid #fff;
+    outline: 0;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    float: left;
+}
+.api-groupdocs-viewer-ico-new { background: url(../img/groupdocs-viewer.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-annotation-ico-new { background: url(../img/groupdocs-annotation.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-conversion-ico-new { background: url(../img/groupdocs-conversion.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-comparison-ico-new { background: url(../img/groupdocs-comparison.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-signature-ico-new { background: url(../img/groupdocs-signature.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-assembly-ico-new { background: url(../img/groupdocs-assembly.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-metadata-ico-new { background: url(../img/groupdocs-metadata.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-search-ico-new { background: url(../img/groupdocs-search.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-parser-ico-new { background: url(../img/groupdocs-parser.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-watermark-ico-new { background: url(../img/groupdocs-watermark.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-editor-ico-new { background: url(../img/groupdocs-editor.png) 0 0 no-repeat; background-position: -4px -4px; }
+
+.api-groupdocs-merger-ico-new { background: url(../img/groupdocs-merger.png) 0 0 no-repeat; background-position: -4px -4px; }
 .api-product-title h2{
 	color:#343434;
 	font-family: 'Open Sans', sans-serif;
