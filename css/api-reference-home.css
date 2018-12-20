@@ -1,3 +1,9 @@
+
+.rightbody
+{
+	margin-top: 60px;
+}
+
 #sitenavPanel div a
 {
 	font-size:14px!important;
@@ -144,16 +150,7 @@
 #accordion  h1, #accordion .h1, #accordion h2, #accordion .h2,#accordion  h3, #accordion .h3, #accordion a{font-family:Arial, Helvetica, sans-serif!important;}
 .lhscontent{ margin-bottom:0!important;}
 #rightcontent h4.rightcontenttitle{font-size: 25px;    font-weight: bold;    margin-bottom: 25px;    margin-top: 0;}
-.big-box .api-box{ min-height: 205px!important;}
-.api-box{min-height: 150px;}
 @media (min-width:0px) and (max-width:640px) {
-.big-box .api-box{
-min-height: inherit!important;
-}
-.api-box{
-min-height: inherit!important;
-}
-				
 .mhide {
 	display: none;
 }
@@ -188,7 +185,7 @@ min-height: inherit!important;
 
 
 body{
-margin: 0;
+	margin: 0;
     padding: 0;
     font-family: Arial,Helvetica,Tahoma!important;
 }
@@ -401,12 +398,18 @@ ul.update-groupings li.grouping:hover {
 	text-align:left;
 	float:left;
 }
+
+.api-product-title2{
+	text-align:left;
+}
+
 .api-box{
-	min-height: 145px;
+	min-height: 265px !important;
     padding: 10px 15px!important;
 	transition:300ms all ease-in-out;
 	margin:20px 0;
 	display:inline-block;
+	float:none !important;
 }
 .api-box:hover{
     background: #eee;
@@ -423,6 +426,18 @@ ul.update-groupings li.grouping:hover {
 	display: inline-block;
     margin: 0 10px 0 0;
 	float:left;
+}
+
+
+.api-ico2{    
+	background: url(../img/api-sprite.png) 0 0 no-repeat;
+    width: 45px;
+    height: 45px;
+    border: 0 solid #fff;
+    outline: 0;
+	display: inline-block;
+    margin: 0 10px 0 0;
+	float:none;
 }
 
 .api-total-ico{
@@ -479,65 +494,11 @@ ul.update-groupings li.grouping:hover {
 .api-cad-ico{
     background-position: -8px -630px ;
 }
+
 .api-html-ico{
     background-position: -8px -735px ;
 }
 
-.api-gis-ico{
-    background-position: -8px -839px ;
-}
-.api-xps-ico {
-    background-position: -8px -943px;
-}
-.api-eps-ico {
-    background-position: -8px -891px;
-}
-.api-zip-ico{
-    background-position: -8px -995px ;
-}
-.api-psd-ico{
-    background-position: -8px -1047px ;
-}
-.api-storage-ico {
-    background-position: -8px -1099px;
-}
-.api-video-ico {
-    background-position: -8px -1151px;
-}
-
-.gd-api-ico {
-    background: url(../img/icons-blue.png?v=7) 0 0 no-repeat;
-    width: 55px;
-    height: 45px;
-    border: 0 solid #fff;
-    outline: 0;
-    display: inline-block;
-    margin: 0 10px 0 0;
-    float: left;
-}
-.api-groupdocs-viewer-ico-new { background: url(../img/groupdocs-viewer.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-annotation-ico-new { background: url(../img/groupdocs-annotation.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-conversion-ico-new { background: url(../img/groupdocs-conversion.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-comparison-ico-new { background: url(../img/groupdocs-comparison.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-signature-ico-new { background: url(../img/groupdocs-signature.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-assembly-ico-new { background: url(../img/groupdocs-assembly.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-metadata-ico-new { background: url(../img/groupdocs-metadata.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-search-ico-new { background: url(../img/groupdocs-search.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-parser-ico-new { background: url(../img/groupdocs-parser.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-watermark-ico-new { background: url(../img/groupdocs-watermark.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-editor-ico-new { background: url(../img/groupdocs-editor.png) 0 0 no-repeat; background-position: -4px -4px; }
-
-.api-groupdocs-merger-ico-new { background: url(../img/groupdocs-merger.png) 0 0 no-repeat; background-position: -4px -4px; }
 .api-product-title h2{
 	color:#343434;
 	font-family: 'Open Sans', sans-serif;
@@ -555,7 +516,6 @@ ul.update-groupings li.grouping:hover {
 	margin:0 10px 0 0;
 	float:left;
 	padding:0;
-    min-width:70%;
 }
 .api-box ul{
     margin: 10px 0;
@@ -563,7 +523,7 @@ ul.update-groupings li.grouping:hover {
     padding-left: 72px;
 }
 .api-box ul li{
-    margin: 5px 0;
+    margin: 5px 10px 5px -30px;
 }
 .api-box ul li a{
 	color:#0082cb;
@@ -589,7 +549,7 @@ ul.update-groupings li.grouping:hover {
 	transition:300ms all ease-in-out;
 }
 .gray-bg .api-box{
-	min-height: 145px;
+	min-height: 210px;
     padding: 10px;
 	transition:300ms all ease-in-out;
 	margin:20px 0; 
@@ -601,3 +561,42 @@ ul.update-groupings li.grouping:hover {
 @media (min-width:641px) and (max-width:1024px){
 .api-box{ width:50%; float:left; min-height:200px!important}	
 }
+
+.api-aspose-words-ico-new { background: url(../img/aspose-words.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-cells-ico-new { background: url(../img/aspose-cells.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-pdf-ico-new { background: url(../img/aspose-pdf.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-slides-ico-new { background: url(../img/aspose-slides.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-email-ico-new { background: url(../img/aspose-email.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-barcode-ico-new { background: url(../img/aspose-barcode.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-imaging-ico-new { background: url(../img/aspose-imaging.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-tasks-ico-new { background: url(../img/aspose-tasks.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-ocr-ico-new { background: url(../img/aspose-ocr.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-diagram-ico-new { background: url(../img/aspose-diagram.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-note-ico-new { background: url(../img/aspose-note.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-3d-ico-new { background: url(../img/aspose-3d.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-cad-ico-new { background: url(../img/aspose-cad.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-html-ico-new { background: url(../img/aspose-html.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+
+.api-aspose-gis-ico-new { background: url(../img/aspose-gis.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-eps-ico-new { background: url(../img/aspose-eps.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-xps-ico-new { background: url(../img/aspose-xps.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-psd-ico-new { background: url(../img/aspose-psd.png) 0 0 no-repeat; background-position: -8px -7px; }
+
+.api-aspose-zip-ico-new { background: url(../img/aspose-zip.png) 0 0 no-repeat; background-position: -8px -7px; }

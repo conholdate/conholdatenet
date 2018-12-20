@@ -1,0 +1,89 @@
+.bodycontent {
+    min-height: 444px;
+}
+
+.api-box {
+    min-height: 40px !important;
+    margin: 5px 0px;
+}
+
+.product {
+    color: #0082cb !important;
+    font-size: 14px;
+    font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+
+}
+.products{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width:100%;
+}
+.api-box ul li {
+    margin: 5px 10px 5px 0px;
+}
+.api-product-title h2 {
+    float: none;
+}
+.api-product-title {
+    width: 100%;
+ }
+ .d-flex{
+     display: flex
+ }
+
+
+.api-aspose-total {
+    background: url(https://apireference.conholdate.com/aspose-total.png) 0 0 no-repeat;
+    background-position: -8px -7px;
+}
+.api-groupdocs-total {
+    background: url(https://apireference.conholdate.com/groupdocs-total.png) 0 0 no-repeat;
+    background-position: -8px -7px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1100px;
+}
+
+}
+@media (max-width: 1024px){
+    .api-box:hover{
+        background: none;
+        box-shadow: none
+    }
+.api-box ul {
+padding-left: 20px;
+}
+.api-hd-section h1 {
+    font-size: 20px;
+}
+.api-hd-section h3 {
+    font-size: 16px;
+     margin: 10px 0 0;
+}
+}
+@media (max-width: 868px){
+    .container {
+        width: 100%;
+        }
+        .d-flex {
+display: block;
+}
+.api-box {
+width: 100%;
+float: left;
+min-height: 200px!important;
+}
+.api-box ul {
+padding-left: 70px;
+}
+}
+@media (max-width: 668px){
+.products{
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    width:100%;
+}
+}
