@@ -18,10 +18,14 @@
 
 
     <!-- Dynabic.Menu CSS -->
-    <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/aspose/css/AsposePtyLtdMenu.css?v1.3" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cms.admin.containerize.com/templates/aspose/js/bootstrap.js" type="text/javascript"></script>
-    <script src="https://menu.dynabic.com/Scripts/Dynabic.Menu.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://menu.containerize.com/Scripts/Containerize.Menu.min.js"></script>
+<link href="https://cms.admin.containerize.com/templates/aspose/css/AsposePtyLtdMenu.css"
+rel="stylesheet" type="text/css" />
+<link rel="stylesheet"
+href="https://cms.admin.containerize.com/templates/conholdate/css/conholdate.css" type="text/css"
+/>
+<link rel="stylesheet" href="https://cms.admin.containerize.com/templates/aspose/css/font-awesome.css" type="text/css" />
 
     <!-- Venture CSS -->
     <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/conholdate/css/conholdate.css" type="text/css" />
@@ -112,30 +116,9 @@
     </div>
 </div>
 <div id='DynabicMenuFooter'></div>
-
-
 <script>
-    LoadMenu("Conholdate");
-   /* $.ajax({
-        method: "POST",
-        url: "https://apireference.aspose.com/restapi/GetProductFamiliesByVentures",
-        data: {"ProductFamilyRequests": [{ "ventureName": "aspose" }, { "ventureName": "groupdocs" } ], "Section": "net" }
-    })
-        .done(function( products ) {
-            $.each(products, function (key, product) {
-                var href = "https://apireference.aspose.com/";
-                var element = ".aspose-products";
-                if (product.ventureName === "groupdocs") {
-                    href = "https://apireference.groupdocs.com/";
-                    element = ".groupdocs-products";
-                }
-                var productElement = "<li><a class=\" product\" href=\"" + href + product.sectionName + "/" + product.productName + "\">" + product.description + " </a></li>"
-                $(element).append(productElement);
-            });
-
-        });*/
+LoadMenu("Conholdate");
 </script>
-
 </body>
 
 
